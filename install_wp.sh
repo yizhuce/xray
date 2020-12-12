@@ -547,7 +547,7 @@ function start_menu(){
     check_domain
     ;;
     2)
-    bash <(curl -L https://raw.githubusercontent.com/XTLS/Xray-install/main/install-release.sh)
+    bash <(curl -L https://raw.githubusercontent.com/atrandys/xray/main/install_triple_config.sh)
     systemctl restart xray
     ;;
     3)
